@@ -61,7 +61,7 @@ namespace Pistache::Http::Header
                               [](const char& a, const char& b) {
                                   return std::tolower(a) == std::tolower(b);
                               });
-        };
+        }
     };
 
     class Collection

@@ -134,7 +134,7 @@ namespace Pistache::Http::Header
     class Allow : public Header
     {
     public:
-        NAME("Allow");
+        NAME("Allow")
 
         Allow()
             : methods_()
@@ -431,7 +431,7 @@ namespace Pistache::Http::Header
     class ContentLength : public Header
     {
     public:
-        NAME("Content-Length");
+        NAME("Content-Length")
 
         ContentLength()
             : value_(0)
@@ -453,7 +453,7 @@ namespace Pistache::Http::Header
     class Authorization : public Header
     {
     public:
-        NAME("Authorization");
+        NAME("Authorization")
 
         enum class Method { Basic,
                             Bearer,
@@ -576,7 +576,7 @@ namespace Pistache::Http::Header
     class Host : public Header
     {
     public:
-        NAME("Host");
+        NAME("Host")
 
         Host()
             : uriHost_()
@@ -600,7 +600,7 @@ namespace Pistache::Http::Header
     class LastModified : public Header
     {
     public:
-        NAME("Last-Modified");
+        NAME("Last-Modified")
 
         LastModified()
             : fullDate_()

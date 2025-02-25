@@ -216,7 +216,7 @@ namespace Pistache::Aio
 
         Context context() const { return context_; }
 
-        Reactor::Key key() const { return key_; };
+        Reactor::Key key() const { return key_; }
 
         ~Handler() override = default;
 
